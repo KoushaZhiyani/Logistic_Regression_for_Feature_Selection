@@ -7,10 +7,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
-# address and target
-# C:\Users\Ashil-Rayan\PycharmProjects\PCOS\PCOS_edit.csv
-# PCOS (Y/N)
-
 
 while True:
     status = input("1)start\n0)Exit!")
@@ -72,4 +68,3 @@ while True:
     plt.xlabel("number of columns")
     plt.ylabel("score")
     plt.show()
-    exit()
