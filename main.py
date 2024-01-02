@@ -2,10 +2,10 @@
 
 
 import pandas as pd
-from sklearn.feature_selection import RFE
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
+import numpy as np
 
 while True:
     status = input("1)start\n0)Exit!\n")
